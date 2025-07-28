@@ -21,7 +21,7 @@ classDiagram
         +Type type
     }
 
-    class Type {
+    class ElementType {
         +String name
         +String url
     }
@@ -30,7 +30,7 @@ classDiagram
         +String frontDefault
     }
 
-    Pokemon "1" --> "1..*" PokemonType
-    PokemonType --> Type
+    Pokemon "1" --> "1..*" Pokemonype
+    PokemonType --> ElementType
     Pokemon "1" --> "1" Sprites
 ```
