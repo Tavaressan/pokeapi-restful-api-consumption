@@ -30,7 +30,7 @@ classDiagram
         +String frontDefault
     }
 
-    Pokemon --> "0..*" PokemonType
+    Pokemon "1" --> "1..*" PokemonType
     PokemonType --> Type
-    Pokemon --> Sprites
+    Pokemon "1" --> "1" Sprites
 ```
